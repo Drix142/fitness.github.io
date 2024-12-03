@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakty</title>
+    <link rel="icon" href="Photos/minilogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="php" href="email.php">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="Photos/logo.jpg" alt="Fitness Logo"></a>
+        <h1><a href="index.html">Fitness Sculpt</a></h1>
+        <nav>
+            <a href="cenik.html">Ceník</a>
+            <a href="sluzby.html">Naše služby</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="kontakty.html" style="background-color: #777;">Kontakty</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section id="contacts" class="section">
+            <div>
+                <div>
+                    <h2>Kde nás můžete kontaktovat?</h2>
+                    <div class="IconDiv">
+                        <img src="Photos/email.png" class="icons" alt="Email logo">
+                        <p>skulptfitness@gmail.com</p>
+                    </div>
+                    <div class="IconDiv">
+                        <a href="https://www.instagram.com/fitnesssculpt/?hl=en" target="_blank" rel="noopener noreferrer">
+                            <img src="Photos/instagram.png" class="icons" alt="Instagram logo">
+                        </a>
+                        <p>@fitnessskulpt</p>
+                    </div>
+                    <div class="IconDiv">
+                        <a href="https://www.facebook.com/fitnessskulpt" target="_blank" rel="noopener noreferrer">
+                            <img src="Photos/facebook.png" class="icons"  alt="Facebook logo">
+                        </a>
+                        <p>@fitnessskulpt</p>
+                    </div>
+                    <div class="IconDiv">
+                        <img src="Photos/phone.png" class="icons" alt="Logo telefonu">
+                        <p>+420 123456789</p>
+                    </div>
+                </div>
+    
+                <div>
+                    <h2>Kde nás můžete najít?</h2>
+                    <div class="IconDiv">
+                        <p>Naše Fitness centrum sídlý v Hradci Králové,<br> Hradecká 1249/6, 500 03 Hradec Králové 3</p>
+                    </div>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2147.407400714334!2d15.829649854831219!3d50.203911050478965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470c2b3387ae60bd%3A0x8365ae5997d44176!2sUniversity%20of%20Hradec%20Kr%C3%A1lov%C3%A9%20%E2%80%93%20building%20J!5e0!3m2!1sen!2scz!4v1732712058333!5m2!1sen!2scz" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="section">
+            <div class="form-container">
+                <h2>Napište nám zprávu</h2>
+                <form action="email.php" method="post">
+                    <label>Jméno:</label><br>
+                    <input type="text" id="jmeno" name="jmeno" required><br><br>
+
+                    <label>Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label>Zpráva:</label><br>
+                    <textarea id="zprava" name="zprava" rows="4" cols="50" required></textarea><br><br>
+
+                    <input type="submit" value="Odeslat zprávu">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Fitness Centrum Sculpt</p>
+        <p>skulptfitness@gmail.com</p>
+    </footer>
+</body>
+</html>
