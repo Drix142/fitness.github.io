@@ -226,6 +226,10 @@ h2 {
     flex-wrap: wrap;
 }
 
+#mapPadding{
+    padding-right: 50px;
+}
+
 /*--------------------GALERIE--------------------*/
 .section .gallery {
     display: grid;
@@ -306,6 +310,11 @@ h2 {
     .slideshow-text {
         font-size: 15px;
     }
+
+
+    #mapPadding{
+        padding-right: 0px;
+    }
 }
 
 
@@ -331,5 +340,9 @@ h2 {
 
     .gImageDiv {
         aspect-ratio: 3 / 2;
+    }
+
+    #mapPadding{
+        padding-right: 0px;
     }
 }
