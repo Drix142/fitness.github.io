@@ -221,15 +221,6 @@ h2 {
     gap: 10px;
 }
 
-.socials{
-    text-decoration: none;
-    color: black;
-}
-
-.socials:visited{
-    color: purple;
-}
-
 #contacts{
     display: flex;
     flex-wrap: wrap;
